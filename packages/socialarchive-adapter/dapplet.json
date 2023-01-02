@@ -1,0 +1,13 @@
+{
+  "name": { "$ref": "package.json#/name" },
+  "branch": "default",
+  "version": { "$ref": "package.json#/version" },
+  "type": "ADAPTER",
+  "title": "SocialArchive Adapter",
+  "description": { "$ref": "package.json#/description" },
+  "main": { "$ref": "package.json#/main" },
+  "contextIds": ["socialarchive.info", "localhost:3000", "localhost"],
+  "dependencies": {
+    "dynamic-adapter.dapplet-base.eth": "0.6.14"
+  }
+}

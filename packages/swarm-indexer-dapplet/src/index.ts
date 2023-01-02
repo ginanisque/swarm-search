@@ -5,6 +5,7 @@ import ADD_ICON from './icons/add24.png';
 export default class SwarmIndexerDapplet {
 
   @Inject('swarm-gateway-adapter')
+  @Inject('socialarchive-adapter')
   public adapter: any;
 
   searchEngineUrl: string;

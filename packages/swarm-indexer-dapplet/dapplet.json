@@ -7,13 +7,14 @@
   "description": { "$ref": "package.json#/description" },
   "main": { "$ref": "package.json#/main" },
   "icon": "src/icons/icon64.png",
-  "contextIds": ["swarm-gateway-adapter"],
+  "contextIds": ["swarm-gateway-adapter", "socialarchive-adapter"],
   "config": {
     "schema": "config/schema.json",
     "default": "config/default.json"
   },
   "dependencies": {
-    "swarm-gateway-adapter": "0.1.1"
+    "swarm-gateway-adapter": "0.1.1",
+    "socialarchive-adapter": "0.1.0"
   },
   "overlays": {
     "swarm-indexer-overlay": "https://localhost:3001/packages/swarm-indexer-overlay/build/"
